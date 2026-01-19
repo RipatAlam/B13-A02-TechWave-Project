@@ -127,7 +127,7 @@ body {
     font-size: 1rem;
     font-weight: 400;
     padding-top: 1rem;
-    color: rgba(255, 255, 255, 0.6);;
+    color: rgba(255, 255, 255, 0.6);
     padding-bottom: 2rem;
 }
 .btn-spotify {
@@ -215,19 +215,203 @@ body {
 
 .main-container {
     width: 100%;
-    height: 70rem;
+    height: 65rem;
     padding: 7.5rem;
-    border: 2px solid red;
+    background: rgba(35, 14, 61, 1);
 }
-.choose-items-box {
-    border: 2px solid yellow;
+.box-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    padding-bottom: 40px;
 }
 .quality-box {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 200px);
-    border: 2px solid blue;
+    gap: 30px;
 }
+.box-1 {
+    grid-row: 1 / span 2;
+    border-radius: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2.5rem;
+    gap: 1rem;
+    background: rgba(53, 17, 101, 0.4);
+}
+.box-2 {
+    grid-column: 2 / span 3;
+    border-radius: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2.5rem;
+    gap: 1rem;
+    background: rgba(53, 17, 101, 0.4);
+}
+.box-3 {
+    grid-column: 2 / span 3;
+    border-radius: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2.5rem;
+    gap: 1rem;
+    background: rgba(53, 17, 101, 0.4);
+}
+.box-4 {
+    grid-column: 1 / span 2;
+    border-radius: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 1rem;
+    padding-left: 2.5rem;
+    padding-top: 1rem;
+    gap: 0.5rem;
+    background: rgba(53, 17, 101, 0.4);
+}
+.box-5 {
+    grid-column: 3 / span 3;
+    border-radius: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 1.5rem;
+    padding-left: 2.5rem;
+    padding-bottom: 1.5rem;
+    gap: 1rem;
+    background: rgba(53, 17, 101, 0.4);
+}
+/* episodes-container */
+
+.episodes {
+    background: rgba(26, 11, 46, 1);
+}
+.episode-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    padding-top: 5rem;
+}
+.episode-container {
+    display: flex;
+    justify-content: center;
+    padding: 120px 200px;
+    padding-bottom: 5rem;
+    gap: 2rem;
+}
+.card-info {
+    border-radius: 24px;
+    background: rgba(37, 13, 68, 1);
+}
+.iframe-video {
+    width: 380px;
+    height: 214px;
+    border: none;
+    border-radius: 24px;
+}
+.video-discription {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+.card-info>p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: left;
+    padding-left: 24px;
+    padding-top: 12px;
+    padding-bottom: 24px;
+}
+
+.meet-the-host {
+    padding: 50px 200px;
+}
+.adviser {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+}
+.alex-kumer-discription {
+    width: 100%;
+    height: 280px;
+    border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    padding: 40px;
+    gap: 24px;
+}
+.alex-discription h4 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: white;
+}
+.alex-discription p {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    opacity: 0.6;
+    padding-top: 20px;
+}
+.alex-items {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.5rem;
+    gap: 1.5rem;
+    border: rgba(53, 17, 101, 0.4);
+}
+.kumer-item {
+    list-style: none;
+}
+
+
+/*footer*/
+
+
+.copyright {
+    background: url(../assets/footer-bg.png);
+    width: 100%;
+    height: 412px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    gap: 3.5rem;
+    padding-top: 20px;
+    padding-left: 80px;
+    opacity: 0.6;
+}
+#wave {
+    font-size: 60px;
+}
+.all {
+    color: white;
+    opacity: 0.6;
+    padding-top: 20px;
+}
+
 
 
 
